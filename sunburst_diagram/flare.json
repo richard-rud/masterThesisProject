@@ -1,0 +1,51 @@
+{
+ "name": "Flow_1",
+ "children": [
+  {
+   "name": "vis_1",
+   "children": [
+    {
+     "name": "legend",
+     "children": [
+      {"name": "Legend", "size": 20859},
+      {"name": "LegendItem", "size": 4614},
+      {"name": "LegendRange", "size": 10530}
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "Flow_2",
+ "children": [
+  {
+   "name": "vis_2",
+   "children": [
+    {
+     "name": "legend2",
+     "children": [
+      {"name": "Legend2", "size": 20859},
+      {"name": "LegendItem2", "size": 4614},
+      {"name": "LegendRange2", "size": 10530}
+     ]
+    }
+   ]
+  }
+ ],
+  "name": "Flow_3",
+ "children": [
+  {
+   "name": "vis_3",
+   "children": [
+    {
+     "name": "legend3",
+     "children": [
+      {"name": "Legend3", "size": 4000859},
+      {"name": "LegendItem3", "size": 800614},
+      {"name": "LegendRange3", "size": 2000530},
+      {"name": "LegendRange3", "size": 2000530}
+     ]
+    }
+   ]
+  }
+ ]
+}

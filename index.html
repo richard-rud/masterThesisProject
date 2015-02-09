@@ -57,7 +57,7 @@ body {
   height: 600px;
   width: 1250px;
   margin: 20px;
-  background-color: white;
+  background-color: #fbfbfb;
   border: solid;
   border-style: groove;
   /*Positioning the sankey*/
@@ -152,6 +152,10 @@ opacity: .5;
 
 <button id="removeData" class="btn btn-danger btn-lg" type="button" data-step="2" data-intro="This button removes all the diagrams"><span class="glyphicon glyphicon-floppy-remove"></span> Remove all</button>
 
+<a href="bubbles.html" class="btn btn-success btn-lg" type="button" data-step="3" data-intro="This button gives you a bubble chart for the flows">Bubble chart</a>
+
+<a href="stackedBarChart/stackedBar.html" class="btn btn-success btn-lg" type="button" data-step="4" data-intro="This button gives you a stacked bubble chart for stocks and NAS">Stacked bar chart</a>
+
   <a class="btn btn-lg btn-success" href="javascript:void(0);" onclick="javascript:introJs().setOption('showProgress', true).start();">Show me how</a>
 
 
@@ -160,7 +164,7 @@ opacity: .5;
 
 
 
-<div id="chart" data-step="3" data-intro="This window displays the multi-layered model">
+<div id="chart" data-step="5" data-intro="This window displays the multi-layered model">
 </div>
 
 <script>
@@ -238,7 +242,7 @@ svg.append("pattern")
 .attr('patternUnits', 'userSpaceOnUse')
 .attr('width', '25')
 .attr('height', '25')
-.style("stroke", "#2ca25f")
+.style("stroke", "#b22200")
 //.style("stroke", function(d) {return d.colorType})
 //.style("stroke", function(d) {return d.colorType})
 .style("stroke-width", 5)
@@ -251,7 +255,7 @@ svg.append("pattern")
 .attr('patternUnits', 'userSpaceOnUse')
 .attr('width', '25')
 .attr('height', '25')
-.style("stroke", "#E6550D")
+.style("stroke", "#EACE3F")
 //.style("stroke", function(d) {return d.colorType})
 //.style("stroke", function(d) {return d.colorType})
 .style("stroke-width", 5)

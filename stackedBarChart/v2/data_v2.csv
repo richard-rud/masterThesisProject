@@ -1,0 +1,13 @@
+group,scenario,value
+"Recycling","Scenario 1",2
+"Recycling","Scenario 2",8
+"Recycling","Scenario 3",14
+"Losses","Scenario 1",2
+"Losses","Scenario 2",3
+"Losses","Scenario 3",5
+"Import","Scenario 1",4
+"Import","Scenario 2",3
+"Import","Scenario 3",1
+"Waste","Scenario 1",2
+"Waste","Scenario 2",12
+"Waste","Scenario 3",1

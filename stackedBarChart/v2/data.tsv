@@ -1,0 +1,17 @@
+group	scenario	value
+"Recycling"	1	10
+"Recycling"	2	8
+"Recycling"	3	14
+"Recycling"	4	9
+"Losses"	1	10
+"Losses"	2	3
+"Losses"	3	5
+"Losses"	4	11
+"Import"	1	10
+"Import"	2	8
+"Import"	3	14
+"Import"	4	9
+"Waste"		1   3
+"Waste"		2	3
+"Waste"		3	4
+"Waste"		4	10
