@@ -1,0 +1,57 @@
+{
+  "Total avoidable food waste measured in tons": {
+    "Food processing": {
+        "Frozen food": 5441,
+        "Fresh fruit and vegetables": 10600,
+        "Fresk bakery goods": 24275,
+        "Fresh finished food and sausages": 1380,
+        "Fresh fish": 377,
+        "Fresh meat": 2474,
+        "Egg": 0,
+        "Dairy": 1442,
+        "Dried food": 14334
+    },
+    "Wholesale": {
+        "Frozen food": 116,
+        "Fresh fruit and vegetables": 0,
+        "Fresk bakery goods": 714,
+        "Fresh finished food and sausages": 0,
+        "Fresh fish": 60,
+        "Fresh meat": 275,
+        "Egg": 0,
+        "Dairy": 607,
+        "Dried food": 194 
+    },
+    "Retail": {
+       "Frozen food": 423,
+        "Fresh fruit and vegetables": 24258,
+        "Fresk bakery goods": 22275,
+        "Fresh finished food and sausages": 3954,
+        "Fresh fish": 1479,
+        "Fresh meat": 3644,
+        "Egg": 967,
+        "Dairy": 7851,
+        "Dried food": 3060 
+    },
+    "Human consumption": {
+        "Frozen food": 62375,
+        "Fresh fruit and vegetables": 70359,
+        "Fresk bakery goods": 0,
+        "Fresh finished food and sausages": 0,
+        "Fresh fish": 19960,
+        "Fresh meat": 0,
+        "Egg": 15469,
+        "Dairy": 0,
+        "Dried food": 86327 
+    }
+  }
+}
+
+ 
+  
+
+  
+ 
+ 
+ 
+  
