@@ -1,0 +1,37 @@
+group,scenario,value
+'Frozen food','Food Processing',5441
+'Frozen food','Wholesale',116
+'Frozen food','Retail',423
+'Frozen food','HC',62375
+'Fresh fruit and vegetables','Food Processing',10600
+'Fresh fruit and vegetables','Wholesale',0
+'Fresh fruit and vegetables','Retail',24258
+'Fresh fruit and vegetables','HC',70359
+'Fresk bakery goods','Food Processing',24275
+'Fresk bakery goods','Wholesale',714
+'Fresk bakery goods','Retail',22275
+'Fresk bakery goods','HC',0
+'Fresh finished food and sausages',1380
+'Fresh finished food and sausages',0
+'Fresh finished food and sausages',3954
+'Fresh finished food and sausages',0
+'Fresh fish','Food Processing',377
+'Fresh fish','Wholesale',60
+'Fresh fish','Retail',1479
+'Fresh fish','HC',19960
+'Fresh meat','Food Processing',2474
+'Fresh meat','Wholesale',275
+'Fresh meat','Retail',3644
+'Fresh meat','HC',0
+'Egg','Food Processing',0
+'Egg','Wholesale',0
+'Egg','Retail',967
+'Egg','HC',15469
+'Dairy','Food Processing',1442
+'Dairy','Wholesale',607
+'Dairy','Retail',7851
+'Dairy','HC',0
+'Dried food','Food Processing',14334
+'Dried food','Wholesale',194
+'Dried food','Retail',3060
+'Dried food','HC',86327

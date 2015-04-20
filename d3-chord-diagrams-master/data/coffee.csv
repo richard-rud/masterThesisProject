@@ -1,0 +1,21 @@
+state,entity
+"Waste based fertilizer","Fertilizer production"
+"Imported phosphate","Fertilizer production"
+"Fertilizer production","Exported fertilizer"
+"Fertilizer production","Agriculture and greening soils"
+"Fertilizer production","Agriculture and greening soils"
+"Athmospheric deposition","Agriculture and greening soils"
+"Agriculture and greening soils","Agriculture and greening soils"
+"Agriculture and greening soils","Agriculture"
+"Agriculture","Agriculture and greening soils"
+"Agriculture","Agriculture and greening soils"
+"Agriculture","Manure to forest"
+"Agriculture","Husbandry products"
+"Agriculture","Husbandry feed production"
+"Husbandry feed production","Agriculture"
+"Fish meal and slag","Husbandry feed production"
+"MBM","Husbandry feed production"
+"Husbandry feed production","Pet food"
+"Imported feed","Husbandry feed production"
+
+

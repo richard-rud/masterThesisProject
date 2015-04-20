@@ -9,11 +9,49 @@
  
 <!-- create container element for visualization -->
 <div id="viz"></div>
+
+<style>
+  
+  body {
+    background-color: red;
+  }
+
+  #d3plus_overlay {
+    background-color: red;
+  }
+
+  svg#d3plus {
+    background-color: red;
+  }
+
+  div#viz {
+    margin: 25px auto;
+    text-align: left;
+    width: 700px;
+    background-color: red;
+  }
+
+  div.color {
+    border-left: 25px solid;
+    display: inline-block;
+    margin: 10px;
+    padding: 0px 10px;
+    width: 50px;
+  }
+
+  div.text {
+    font: 11px "Helvetica", "Arial", sans-serif;
+    margin: 5px 0px;
+  }
+
+</style>
+
+<div id="viz"></div>
  
 <script>
 
   // sample data array
-  var sample_data = [
+  var agricultureData = [
     {"value": 19032, "name": "Organic fertilizer", "group": "Dry matter"},
     {"value": 373275, "name": "Mineral fertilizer", "group": "Dry matter"},
     {"value": 250000, "name": "Organic fertilizer", "group": "Phosphorus"},
@@ -30,12 +68,13 @@
   // instantiate d3plus
   var visualization = d3plus.viz()
     .container("#viz")     // container DIV to hold the visualization
-    .data(sample_data)     // data to use with the visualization
+    .data(agricultureData)     // data to use with the visualization
     .type("bubbles")       // visualization type
     .id(["group", "name"]) // nesting keys
-    .depth(1)              // 0-based depth
+    .depth(10)
+    .style("background-color", "#737373")              // 0-based depth
     .size("value")         // key name to size bubbles
-    .color("group")        // color by each group
+    .color("red")        // color by each group
     .draw()                // finally, draw the visualization!
 
 </script>

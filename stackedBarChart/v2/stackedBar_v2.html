@@ -62,12 +62,9 @@ form {
 
   <!--<label><input type="checkbox" name="mode" value="sort" >Sort descending</label>-->
 
-
 </form>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
-
-
 
 //var parseDate = d3.time.format("%Y-%m").parse,
     //formatYear = d3.format("02d");
@@ -111,20 +108,15 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    //////////////////
+//////////////////
 ///Start tooltip//
 /////////////////
 
-
-
 d3.csv("data_v2.csv", function(error, data) {
-
-
 
   data.forEach(function(d) {
     d.value = +d.value;
   });
-
 
   var dataByGroup = nest.entries(data);
 
@@ -222,10 +214,6 @@ var legend = svg.selectAll(".legend")
       .attr("dy", ".35em")
       .style("text-anchor", "end")
       .text(function(d) { return d; });
-
-
-
-
 
 });
 

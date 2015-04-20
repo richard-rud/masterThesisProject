@@ -119,8 +119,8 @@ d3.sankey = function() {
 
 	    s_x = d.source.x + d.source.dx,
 	    s_y = d.source.y + d.sy + d.dy,
-		t_x = d.target.x,
-        t_y = d.target.y,
+		  t_x = d.target.x,
+      t_y = d.target.y,
 		se_x = s_x + cycleDistFromNode + d.dy, // This is where you want to make sure that the cycles dont crash
 		se_y = s_y,
 		ne_x = se_x ,
@@ -136,7 +136,8 @@ d3.sankey = function() {
 		+ "L" + (se_x + cycleControlPointDist) + "," + se_y + " " + (ne_x + cycleControlPointDist) + "," + ne_y + " " + ne_x + "," + ne_y
 		+ "H" + nw_x //Top horizontal line
 		+ "L" + (nw_x - cycleControlPointDist) + "," + nw_y + " " + (sw_x - cycleControlPointDist) + "," + sw_y + " " + sw_x + "," + sw_y
-		+ "H" + t_x
+		//+ "H" + t_x
+    + "H" + t_x 
 		//moving to inner path boundary
 		+ "V" + ( t_y + d.ty )
 		+ "H" + sw_x 
@@ -151,15 +152,25 @@ d3.sankey = function() {
       // regular forward node
       var x0 = d.source.x + d.source.dx,
           x1 = d.target.x,
-          xi = d3.interpolateNumber(x0, x1),
-          x2 = xi(curvature),
-          x3 = xi(1 - curvature),
+          //xi = d3.interpolateNumber(x0, x1),
+          //x2 = xi(curvature),
+          //x3 = xi(1 - curvature),
+          x4 = x0 + d.source.dx,
+          x5 = x1 - d.target.dx,
+          xi = d3.interpolateNumber(x0, x1), 
+          x2 = Math.max(xi(curvature), x4+d.dy),
+          x3 = Math.min(xi(curvature), x5-d.dy),
           y0 = d.source.y + d.sy + d.dy / 2,
           y1 = d.target.y + d.ty + d.dy / 2;
       return "M" + x0 + "," + y0
-           + "C" + x2 + "," + y0
-           + " " + x3 + "," + y1
-           + " " + x1 + "," + y1;
+           //+ "C" + x2 + "," + y0
+           //+ " " + x3 + "," + y1
+           //+ " " + x1 + "," + y1;
+          + "L" + x4 + "," + y0
+          + "C" + x2 + "," + y0
+          + " " + x3 + "," + y1
+          + " " + x5 + "," + y1
+          + "L" + x1 + "," + y1;
       }
     }
 
